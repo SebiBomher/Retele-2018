@@ -1,0 +1,17 @@
+Attaching to computernetworksmaster_tn1_1
+[36mtn1_1  |[0m "- interfetele de retea:"
+[36mtn1_1  |[0m 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+[36mtn1_1  |[0m     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+[36mtn1_1  |[0m     inet 127.0.0.1/8 scope host lo
+[36mtn1_1  |[0m        valid_lft forever preferred_lft forever
+[36mtn1_1  |[0m     inet6 ::1/128 scope host 
+[36mtn1_1  |[0m        valid_lft forever preferred_lft forever
+[36mtn1_1  |[0m 18: eth0@if19: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default 
+[36mtn1_1  |[0m     link/ether 02:42:4e:2a:07:02 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+[36mtn1_1  |[0m     inet 78.42.7.2/30 scope global eth0
+[36mtn1_1  |[0m        valid_lft forever preferred_lft forever
+[36mtn1_1  |[0m     inet6 fe80::42:4eff:fe2a:702/64 scope link tentative 
+[36mtn1_1  |[0m        valid_lft forever preferred_lft forever
+[36mtn1_1  |[0m "- gateway:"
+[36mtn1_1  |[0m default via 78.42.7.1 dev eth0 
+[36mtn1_1  |[0m 78.42.7.0/30 dev eth0 proto kernel scope link src 78.42.7.2 
